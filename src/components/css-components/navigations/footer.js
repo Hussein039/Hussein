@@ -1,4 +1,5 @@
 import styles from './footer.module.css';
+import Pdf from '../../Files/myresume.pdf';
 
 const Footer = () =>{
 

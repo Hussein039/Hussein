@@ -20,6 +20,12 @@ const Skills = () => {
                         <li><img src={require('../images/reactnative.png')} alt="React-Native" ></img></li>
                         <li><img src={require('../images/nodejs.png')} alt="Nodejs" ></img></li>
                         <li><img src={require('../images/sql.png')} alt="sql" ></img></li>
+                        <li><img src={require('../images/mysql.png')} alt="mysql" ></img></li>
+                        <li><img src={require('../images/mongodb.png')} alt="mongodb" ></img></li>
+                        <li><img src={require('../images/python.png')} alt="python" ></img></li>
+                        <li><img src={require('../images/docker.png')} alt="docker" ></img></li>
+                        <li><img src={require('../images/aws.png')} alt="aws" ></img></li>
+                        <li><img src={require('../images/api.png')} alt="api" ></img></li>
                         </ul>
         </div>
     );

@@ -18,9 +18,9 @@ const Contact = () => {
                         <p>Phone: <span className={styles.emailtxt}>+1 416 786-4664</span></p>
                     </div>
                     <div classNAme={styles.icons}>
-                    <FontAwesomeIcon icon={faLinkedin} className={styles.icon} />
-                    <FontAwesomeIcon icon={faGithub} className={styles.icon} />
-                    <FontAwesomeIcon icon={faEnvelope} className={styles.icon} />
+                    <a href="https://www.linkedin.com/in/hussein-saadol/" target='__blank'><FontAwesomeIcon icon={faLinkedin} className={styles.icon} /></a>
+                    <a href="https://github.com/Hussein039" target='__blank'><FontAwesomeIcon icon={faGithub} className={styles.icon} /></a>
+                    <a href="mailto:husseinsaad123123@gmail.com"><FontAwesomeIcon icon={faEnvelope} className={styles.icon} /></a>
                     </div>
                 </div>
                 

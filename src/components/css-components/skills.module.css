@@ -1,5 +1,5 @@
 .container{
-    margin: 100px 0px 100px 0px;
+    margin: 200px 20px 100px 0px;
 }
 .skillsec{
     font-size: 2.5rem;
@@ -47,5 +47,13 @@
 
 
 @media (max-width: 1250px){
-  
+    .skillsList{
+        flex-wrap: wrap;
+    }
+    .skillsList li{
+        flex-basis: 25%;
+    }
+    .skillsList .icon{
+        border: none;
+    }
 }

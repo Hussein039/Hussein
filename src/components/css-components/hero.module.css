@@ -101,15 +101,15 @@
   
     .container .textbox {
       width: 100%;
-      max-width: 450px;
-      text-align: center;
+      max-width: 750px;
     }
     .container .textbox a{
-        display: block;
+        width: 200px;
     }
   
     .container .bgimg {
-      max-width: 400px;
+      width: 1000px;
+      margin-right: 200px;
     }
   
 }

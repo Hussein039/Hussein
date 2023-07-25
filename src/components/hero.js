@@ -1,4 +1,5 @@
-import styles from'./css-components/hero.module.css'
+import styles from './css-components/hero.module.css'
+import resumePDF from "./Files/myresume.pdf"
 
 
 const HeroContainer = () => {
@@ -12,7 +13,7 @@ const HeroContainer = () => {
 			    <h2>Hussein Hussein</h2>
 			    <p>Hello! I'm a front-end developer strongly focused on creating and developing beautiful and functional websites.</p>
 					<a href="#">Contact Me</a>
-					<a href='#'>Projects</a>
+					<a href={resumePDF} target="_blank">My Resume</a>
 			  </div>
 					
 				<div class={styles.bgimg}>

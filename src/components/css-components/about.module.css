@@ -26,20 +26,10 @@
 .text p{
     padding-top: 60px;
     color: rgb(3, 3, 3);
-    width: 50%;
+    width: 70%;
     font-weight: bold;
 }
 
-
-
 @media (max-width: 1250px){
-    .skillsList{
-        flex-wrap: wrap;
-    }
-    .skillsList li{
-        flex-basis: 25%;
-    }
-    .skillsList .icon{
-        border: none;
-    }    
+     
 }

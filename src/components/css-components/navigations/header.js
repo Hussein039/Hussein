@@ -5,6 +5,7 @@ import { faX } from '@fortawesome/free-solid-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import { HashLink as Link } from 'react-router-hash-link';
+import resumePDF from "../../Files/myresume.pdf"
 
 const Header = () => {
 
@@ -13,6 +14,8 @@ const Header = () => {
     const handleClick = () =>{
         setClick(!click);
     }
+
+    
 
     return(
         <div>
@@ -41,6 +44,9 @@ const Header = () => {
                         <Link to="#projects">
                             My Work
                         </Link>
+                    </li>
+                    <li>
+                    <a href={resumePDF} target="_blank">Resume</a>
                     </li>
                     <i className={click? `${styles.icona}fa-sharp fa-solid fa-x` : `${styles.icon} fa-solid fa-bars`} onClick={handleClick}></i>
                     {/* <FontAwesomeIcon icon={faBars}/> */}
