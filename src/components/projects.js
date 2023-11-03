@@ -1,5 +1,6 @@
 import styles from './css-components/projects.module.css'
 import weatherImage from "../images/weather-image.png"
+import xCloneImg from "../images/twitterXclone.PNG";
 
 const Projects = () => {
     
@@ -17,10 +18,10 @@ const Projects = () => {
                     </div>
                     <div className={styles.card}>
                         <div className={styles.cardImg}>
-                        <img src={weatherImage} alt='weatherImage'></img>
+                        <img src={xCloneImg} alt='weatherImage'></img>
                         </div>
                         <h3>Weather App</h3>
-                        <p><a href="https://myreactjsweather.netlify.app/" target="__blank" className={styles.proj_link}>Visit Site</a></p>
+                        <p><a href="https://heroic-sundae-c4c616.netlify.app/" target="__blank" className={styles.proj_link}>Visit Site</a></p>
                     </div>
                     <div className={styles.card}>
                         <div className={styles.cardImg}>
