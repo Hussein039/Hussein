@@ -12,7 +12,7 @@ const HeroContainer = () => {
 			  <div class={styles.textbox}>
 			    <h2>Hussein Hussein</h2>
 			    <p>Hello! I'm a front-end developer strongly focused on creating and developing beautiful and functional websites.</p>
-					<a href="#">Contact Me</a>
+					<a href="#contact">Contact Me</a>
 					<a href={resumePDF} target="_blank">My Resume</a>
 			  </div>
 					

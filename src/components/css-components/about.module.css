@@ -30,6 +30,13 @@
     font-weight: bold;
 }
 
-@media (max-width: 1250px){
-     
+@media (max-width: 860px){
+    .container{
+        padding-bottom: 50px;
+        height: 570px;
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+        margin-bottom: -10vw;
+    }
+    
 }

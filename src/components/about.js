@@ -11,9 +11,9 @@ const About = () => {
                 <h1>About Me</h1>
                 <div className={styles.aboutContainer}>
                     <div className={styles.text}>
-                        <p>I'm a front-end developer graduated from Centennial College as a software engineer in 2022.
-                        I have hands-on experience with .Net and Linux system. My interest in web development stems from my desire to continue learning and developing myself.
-                        I love problem solving and figuring out ways to tackle an issue.</p>
+                        <p>I am a dedicated Front-End Developer with a passion for creating immersive and user-friendly digital experiences.
+                            Proficient in HTML, CSS, and JavaScript, React js, and Tailwind I specialize in translating design concepts into visually appealing and interactive interfaces.
+                            With a keen eye for detail and a commitment to continuous learning, I strive to deliver exceptional and innovative web solutions tailored to meet the unique needs of users and businesses alike.</p>
                     </div>
                 </div>
                        

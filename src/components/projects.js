@@ -13,29 +13,54 @@ const Projects = () => {
                         <div className={styles.cardImg}>
                         <img src={weatherImage} alt='weatherImage'></img>
                         </div>
-                        <h3>Weather App</h3>
-                        <p><a href="https://myreactjsweather.netlify.app/" target="__blank" className={styles.proj_link}>Visit Site</a></p>
-                    </div>
-                    <div className={styles.card}>
-                        <div className={styles.cardImg}>
-                        <img src={xCloneImg} alt='weatherImage'></img>
+                        <div className={styles.text}>
+                            <h3>Weather App</h3>
+                            <p>A simple weather app that uses the Open Weather API to fetch data and display it in a user friendly manner. </p>
+                            <div>
+                                <p><a href="https://myreactjsweather.netlify.app/" target="__blank" className={styles.proj_link}>Visit </a></p>
+                                <p><a href="https://myreactjsweather.netlify.app/" target="__blank" className={styles.proj_link}>Visit </a></p>
+                            </div>
                         </div>
-                        <h3>Weather App</h3>
-                        <p><a href="https://heroic-sundae-c4c616.netlify.app/" target="__blank" className={styles.proj_link}>Visit Site</a></p>
-                    </div>
-                    <div className={styles.card}>
-                        <div className={styles.cardImg}>
-                        <img src={weatherImage} alt='weatherImage'></img>
-                        </div>
-                        <h3>Weather App</h3>
-                        <p><a href="https://myreactjsweather.netlify.app/" target="__blank" className={styles.proj_link}>Visit Site</a></p>
                     </div>
                     <div className={styles.card}>
                         <div className={styles.cardImg}>
                         <img src={weatherImage} alt='weatherImage'></img>
                         </div>
-                        <h3>Weather App</h3>
-                        <p><a href="https://myreactjsweather.netlify.app/" target="__blank" className={styles.proj_link}>Visit Site</a></p>
+                        <div className={styles.text}>
+                            <h3>X(Twitter) Clone</h3>
+                            <p>An X clone app that has the functionalities of posting, liking and deleting posts.</p>
+                            <p>Tech used:</p>
+                            <div>
+                                <p><a href="https://myreactjsweather.netlify.app/" target="__blank" className={styles.proj_link}>Visit </a></p>
+                                <p><a href="https://myreactjsweather.netlify.app/" target="__blank" className={styles.proj_link}>Visit </a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.card}>
+                        <div className={styles.cardImg}>
+                        <img src={weatherImage} alt='weatherImage'></img>
+                        </div>
+                        <div className={styles.text}>
+                            <h3>3D Shirt Design</h3>
+                            <p>A 3D tool that creates cool shirt design and logo using threejs technology.</p>
+                            <div>
+                                <p><a href="https://myreactjsweather.netlify.app/" target="__blank" className={styles.proj_link}>Visit </a></p>
+                                <p><a href="https://myreactjsweather.netlify.app/" target="__blank" className={styles.proj_link}>Visit </a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.card}>
+                        <div className={styles.cardImg}>
+                        <img src={weatherImage} alt='weatherImage'></img>
+                        </div>
+                        <div className={styles.text}>
+                            <h3>Nike Clone</h3>
+                            <p>The website is visually appealing with cool designs and a user friendly interface.</p>
+                            <div>
+                                <p><a href="https://myreactjsweather.netlify.app/" target="__blank" className={styles.proj_link}>Visit </a></p>
+                                <p><a href="https://myreactjsweather.netlify.app/" target="__blank" className={styles.proj_link}>Visit </a></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
