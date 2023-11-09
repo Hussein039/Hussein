@@ -26,6 +26,7 @@ const Skills = () => {
                         <li><img src={require('../images/docker.png')} alt="docker" ></img></li>
                         <li><img src={require('../images/aws.png')} alt="aws" ></img></li>
                         <li><img src={require('../images/api.png')} alt="api" ></img></li>
+                        <li><img src={require('../images/tailwind.png')} alt="tailwind" ></img></li>
                         </ul>
         </div>
     );
