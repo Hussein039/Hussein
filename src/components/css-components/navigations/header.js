@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import styles from'./header.module.css'
 import { HashLink as Link } from 'react-router-hash-link';
-import resumePDF from "../../Files/myCV Resume.pdf"
+import resumePDF from "../../Files/Hussein Resumedocx.docx"
 
 const Header = () => {
 

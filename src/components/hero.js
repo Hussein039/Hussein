@@ -1,5 +1,5 @@
 import styles from './css-components/hero.module.css'
-import resumePDF from "./Files/myCV Resume.pdf"
+import resumePDF from "./Files/Hussein Resumedocx.docx"
 
 
 const HeroContainer = () => {
